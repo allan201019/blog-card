@@ -1,0 +1,138 @@
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+
+    border-radius: 20px;
+    border: 2px solid black ;
+    box-shadow: 8px 8px black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px 24px 24px 24px;
+    gap: 20px;
+
+    
+}
+
+.oi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pic {
+    display: flex;
+    width: 129px;
+    height: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #111111;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.text {
+    color: #6b6b6b;
+}
+
+h2 {
+    color: #111111;
+    background-color: #f4d04e;
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1,h2,p {
+    margin: 0 0 1rem;
+}
+
+h3 {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    color: #111111;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: auto;
+      box-shadow: 4px 4px black;
+    }
+  
+    h1 {
+      font-size: 16px;
+    }
+  
+    .pic {
+      flex-direction: column;
+      gap: 4px;
+    }
+}
+  
+@media screen and (max-width: 375px) {
+    .card {
+      width: 90%;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 4px 4px black;
+    }
+  
+    h1 {
+      font-size: 16px;
+    }
+  
+    h2 {
+      font-size: 12px;
+      padding: 4px 8px;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  
+    .pic {
+      flex-direction: row;
+      gap: 6px;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+  
