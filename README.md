@@ -1,3 +1,4 @@
+
 # Frontend Mentor - Blog preview card solution
 
 This is my solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).  
@@ -43,3 +44,7 @@ During this challenge, I practiced working with responsive layouts using media q
 ---
 
 **Made with 💛 by Allan**
+=======
+# blog-card
+A blog preview card challenge from Frontend Mentor built with HTML and CSS. Fully responsive.
+>>>>>>> 2a97df06b01f907eb3f3472c19aa3edd909b775e
